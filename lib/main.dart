@@ -92,6 +92,7 @@ class _MyHomePageState extends State<MyHomePage> {
         child: Column(
           /*uploading your project to github
 *make sure to be in the directory of the project
+//this is to upload flutter project to github for the first time or commit to github for the first time
 1. github config --global user.name "Wise10673226"
 2. github config --global user.email "wiserichiestone@gmail.com"
 3. git init
@@ -100,6 +101,14 @@ class _MyHomePageState extends State<MyHomePage> {
 6. git remote add origin https://github.com/Wise10673226/test1
 7. git push -u origin master
 
+
+rm .git/index.lock => to delete already git running process 
+
+
+//to upload the project to github for the second time or to commit changes 
+1. git add .
+2. git commit -m "my second commit"
+3. git push --set-upstream origin master
 
           */
           mainAxisAlignment: MainAxisAlignment.center,
