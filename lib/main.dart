@@ -90,19 +90,18 @@ class _MyHomePageState extends State<MyHomePage> {
         // Center is a layout widget. It takes a single child and positions it
         // in the middle of the parent.
         child: Column(
-          // Column is also a layout widget. It takes a list of children and
-          // arranges them vertically. By default, it sizes itself to fit its
-          // children horizontally, and tries to be as tall as its parent.
-          //
-          // Column has various properties to control how it sizes itself and
-          // how it positions its children. Here we use mainAxisAlignment to
-          // center the children vertically; the main axis here is the vertical
-          // axis because Columns are vertical (the cross axis would be
-          // horizontal).
-          //
-          // TRY THIS: Invoke "debug painting" (choose the "Toggle Debug Paint"
-          // action in the IDE, or press "p" in the console), to see the
-          // wireframe for each widget.
+          /*uploading your project to github
+*make sure to be in the directory of the project
+1. github config --global user.name "Wise10673226"
+2. github config --global user.email "wiserichiestone@gmail.com"
+3. git init
+4. git add .
+5. git commit -m "my first commit"
+6. git remote add origin https://github.com/Wise10673226/test1
+7. git push -u origin master
+
+
+          */
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
             const Text(
